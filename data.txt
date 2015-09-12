@@ -1,0 +1,403 @@
+<!--[if IE]><![endif]--><!DOCTYPE html><!--[if IE 8]><html class="no-js ie8 oldie" lang="en" prefix="og: http://ogp.me/ns/# og:book: http://ogp.me/ns/book# og:video: http://ogp.me/ns/video#"
+
+    
+        itemscope itemtype="http://schema.org/Book http://schema.org/ItemPage"" data-login-url="/accounts/login/"
+data-offline-url="/"
+data-url="/library/view/creating-apps-in/9781491947333/ch03.html"
+data-csrf-cookie="csrfsafari"
+data-highlight-privacy=""
+
+
+
+  data-archive="9781491947333"
+  data-publishers="O&#39;Reilly Media, Inc."
+
+
+
+  data-htmlfile-name="ch03.html"
+  data-epub-title="Creating Apps in Kivy"
+  
+    
+	     data-epub-sample="true" data-debug=0 data-testing=0><![endif]--><!--[if gt IE 8]><!--><html class="no-js" lang="en" prefix="og: http://ogp.me/ns/# og:book: http://ogp.me/ns/book# og:video: http://ogp.me/ns/video#"
+
+    
+        itemscope itemtype="http://schema.org/Book http://schema.org/ItemPage"" data-login-url="/accounts/login/"
+data-offline-url="/"
+data-url="/library/view/creating-apps-in/9781491947333/ch03.html"
+data-csrf-cookie="csrfsafari"
+data-highlight-privacy=""
+
+
+
+  data-archive="9781491947333"
+  data-publishers="O&#39;Reilly Media, Inc."
+
+
+
+  data-htmlfile-name="ch03.html"
+  data-epub-title="Creating Apps in Kivy"
+  
+    
+	     data-epub-sample="true" data-debug=0 data-testing=0><!--<![endif]--><head><meta charset="utf-8" /><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /><meta name="author" content="Safari Books Online" /><meta name="format-detection" content="telephone=no"><meta http-equiv="cleartype" content="on"/><meta name="HandheldFriendly" content="True"/><meta name="MobileOptimized" content="320"/><meta name="apple-itunes-app" content="app-id=881697395, app-argument=safaridetail://9781491947333"/><meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, maximum-scale=1.0"/><meta property="twitter:account_id" content="4503599627559754" /><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"VQQDUVVVGwACU1RUAQA="};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o?o:e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({QJf3ax:[function(t,e){function n(t){function e(e,n,a){t&&t(e,n,a),a||(a={});for(var c=s(e),f=c.length,u=i(a,o,r),d=0;f>d;d++)c[d].apply(u,n);return u}function a(t,e){f[t]=s(t).concat(e)}function s(t){return f[t]||[]}function c(){return n(e)}var f={};return{on:a,emit:e,create:c,listeners:s,_events:f}}function r(){return{}}var o="nr@context",i=t("gos");e.exports=n()},{gos:"7eSDFh"}],ee:[function(t,e){e.exports=t("QJf3ax")},{}],3:[function(t){function e(t){try{i.console&&console.log(t)}catch(e){}}var n,r=t("ee"),o=t(1),i={};try{n=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(i.console=!0,-1!==n.indexOf("dev")&&(i.dev=!0),-1!==n.indexOf("nr_dev")&&(i.nrDev=!0))}catch(a){}i.nrDev&&r.on("internal-error",function(t){e(t.stack)}),i.dev&&r.on("fn-err",function(t,n,r){e(r.stack)}),i.dev&&(e("NR AGENT IN DEVELOPMENT MODE"),e("flags: "+o(i,function(t){return t}).join(", ")))},{1:23,ee:"QJf3ax"}],4:[function(t){function e(t,e,n,i,s){try{c?c-=1:r("err",[s||new UncaughtException(t,e,n)])}catch(f){try{r("ierr",[f,(new Date).getTime(),!0])}catch(u){}}return"function"==typeof a?a.apply(this,o(arguments)):!1}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function n(t){r("err",[t,(new Date).getTime()])}var r=t("handle"),o=t(6),i=t("ee"),a=window.onerror,s=!1,c=0;t("loader").features.err=!0,t(5),window.onerror=e;try{throw new Error}catch(f){"stack"in f&&(t(1),t(2),"addEventListener"in window&&t(3),window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&!/CriOS/.test(navigator.userAgent)&&t(4),s=!0)}i.on("fn-start",function(){s&&(c+=1)}),i.on("fn-err",function(t,e,r){s&&(this.thrown=!0,n(r))}),i.on("fn-end",function(){s&&!this.thrown&&c>0&&(c-=1)}),i.on("internal-error",function(t){r("ierr",[t,(new Date).getTime(),!0])})},{1:10,2:9,3:7,4:11,5:3,6:24,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],5:[function(t){t("loader").features.ins=!0},{loader:"G9z0Bl"}],6:[function(t){function e(){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var n=t("ee"),r=t("handle"),o=t(1),i=t(2);t("loader").features.stn=!0,t(3),n.on("fn-start",function(t){var e=t[0];e instanceof Event&&(this.bstStart=Date.now())}),n.on("fn-end",function(t,e){var n=t[0];n instanceof Event&&r("bst",[n,e,this.bstStart,Date.now()])}),o.on("fn-start",function(t,e,n){this.bstStart=Date.now(),this.bstType=n}),o.on("fn-end",function(t,e){r("bstTimer",[e,this.bstStart,Date.now(),this.bstType])}),i.on("fn-start",function(){this.bstStart=Date.now()}),i.on("fn-end",function(t,e){r("bstTimer",[e,this.bstStart,Date.now(),"requestAnimationFrame"])}),n.on("pushState-start",function(){this.time=Date.now(),this.startPath=location.pathname+location.hash}),n.on("pushState-end",function(){r("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),"addEventListener"in window.performance&&(window.performance.addEventListener("webkitresourcetimingbufferfull",function(){r("bstResource",[window.performance.getEntriesByType("resource")]),window.performance.webkitClearResourceTimings()},!1),window.performance.addEventListener("resourcetimingbufferfull",function(){r("bstResource",[window.performance.getEntriesByType("resource")]),window.performance.clearResourceTimings()},!1)),document.addEventListener("scroll",e,!1),document.addEventListener("keypress",e,!1),document.addEventListener("click",e,!1)}},{1:10,2:9,3:8,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],7:[function(t,e){function n(t){i.inPlace(t,["addEventListener","removeEventListener"],"-",r)}function r(t){return t[1]}var o=t("ee").create(),i=t(1)(o),a=t("gos");if(e.exports=o,n(window),"getPrototypeOf"in Object){for(var s=document;s&&!s.hasOwnProperty("addEventListener");)s=Object.getPrototypeOf(s);s&&n(s);for(var c=XMLHttpRequest.prototype;c&&!c.hasOwnProperty("addEventListener");)c=Object.getPrototypeOf(c);c&&n(c)}else XMLHttpRequest.prototype.hasOwnProperty("addEventListener")&&n(XMLHttpRequest.prototype);o.on("addEventListener-start",function(t){if(t[1]){var e=t[1];"function"==typeof e?this.wrapped=t[1]=a(e,"nr@wrapped",function(){return i(e,"fn-",null,e.name||"anonymous")}):"function"==typeof e.handleEvent&&i.inPlace(e,["handleEvent"],"fn-")}}),o.on("removeEventListener-start",function(t){var e=this.wrapped;e&&(t[1]=e)})},{1:25,ee:"QJf3ax",gos:"7eSDFh"}],8:[function(t,e){var n=t("ee").create(),r=t(1)(n);e.exports=n,r.inPlace(window.history,["pushState"],"-")},{1:25,ee:"QJf3ax"}],9:[function(t,e){var n=t("ee").create(),r=t(1)(n);e.exports=n,r.inPlace(window,["requestAnimationFrame","mozRequestAnimationFrame","webkitRequestAnimationFrame","msRequestAnimationFrame"],"raf-"),n.on("raf-start",function(t){t[0]=r(t[0],"fn-")})},{1:25,ee:"QJf3ax"}],10:[function(t,e){function n(t,e,n){t[0]=o(t[0],"fn-",null,n)}var r=t("ee").create(),o=t(1)(r);e.exports=r,o.inPlace(window,["setTimeout","setInterval","setImmediate"],"setTimer-"),r.on("setTimer-start",n)},{1:25,ee:"QJf3ax"}],11:[function(t,e){function n(){f.inPlace(this,p,"fn-")}function r(t,e){f.inPlace(e,["onreadystatechange"],"fn-")}function o(t,e){return e}function i(t,e){for(var n in t)e[n]=t[n];return e}var a=t("ee").create(),s=t(1),c=t(2),f=c(a),u=c(s),d=window.XMLHttpRequest,p=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"];e.exports=a,window.XMLHttpRequest=function(t){var e=new d(t);try{a.emit("new-xhr",[],e),u.inPlace(e,["addEventListener","removeEventListener"],"-",o),e.addEventListener("readystatechange",n,!1)}catch(r){try{a.emit("internal-error",[r])}catch(i){}}return e},i(d,XMLHttpRequest),XMLHttpRequest.prototype=d.prototype,f.inPlace(XMLHttpRequest.prototype,["open","send"],"-xhr-",o),a.on("send-xhr-start",r),a.on("open-xhr-start",r)},{1:7,2:25,ee:"QJf3ax"}],12:[function(t){function e(t){var e=this.params,r=this.metrics;if(!this.ended){this.ended=!0;for(var i=0;c>i;i++)t.removeEventListener(s[i],this.listener,!1);if(!e.aborted){if(r.duration=(new Date).getTime()-this.startTime,4===t.readyState){e.status=t.status;var a=t.responseType,f="arraybuffer"===a||"blob"===a||"json"===a?t.response:t.responseText,u=n(f);if(u&&(r.rxSize=u),this.sameOrigin){var d=t.getResponseHeader("X-NewRelic-App-Data");d&&(e.cat=d.split(", ").pop())}}else e.status=0;r.cbTime=this.cbTime,o("xhr",[e,r,this.startTime])}}}function n(t){if("string"==typeof t&&t.length)return t.length;if("object"!=typeof t)return void 0;if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if("undefined"!=typeof FormData&&t instanceof FormData)return void 0;try{return JSON.stringify(t).length}catch(e){return void 0}}function r(t,e){var n=i(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.sameOrigin=n.sameOrigin}if(window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&!/CriOS/.test(navigator.userAgent)){t("loader").features.xhr=!0;var o=t("handle"),i=t(2),a=t("ee"),s=["load","error","abort","timeout"],c=s.length,f=t(1);t(4),t(3),a.on("new-xhr",function(){this.totalCbs=0,this.called=0,this.cbTime=0,this.end=e,this.ended=!1,this.xhrGuids={}}),a.on("open-xhr-start",function(t){this.params={method:t[0]},r(this,t[1]),this.metrics={}}),a.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),a.on("send-xhr-start",function(t,e){var r=this.metrics,o=t[0],i=this;if(r&&o){var f=n(o);f&&(r.txSize=f)}this.startTime=(new Date).getTime(),this.listener=function(t){try{"abort"===t.type&&(i.params.aborted=!0),("load"!==t.type||i.called===i.totalCbs&&(i.onloadCalled||"function"!=typeof e.onload))&&i.end(e)}catch(n){try{a.emit("internal-error",[n])}catch(r){}}};for(var u=0;c>u;u++)e.addEventListener(s[u],this.listener,!1)}),a.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),a.on("xhr-load-added",function(t,e){var n=""+f(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),a.on("xhr-load-removed",function(t,e){var n=""+f(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),a.on("addEventListener-end",function(t,e){e instanceof XMLHttpRequest&&"load"===t[0]&&a.emit("xhr-load-added",[t[1],t[2]],e)}),a.on("removeEventListener-end",function(t,e){e instanceof XMLHttpRequest&&"load"===t[0]&&a.emit("xhr-load-removed",[t[1],t[2]],e)}),a.on("fn-start",function(t,e,n){e instanceof XMLHttpRequest&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=(new Date).getTime()))}),a.on("fn-end",function(t,e){this.xhrCbStart&&a.emit("xhr-cb-time",[(new Date).getTime()-this.xhrCbStart,this.onload,e],e)})}},{1:"XL7HBI",2:13,3:11,4:7,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],13:[function(t,e){e.exports=function(t){var e=document.createElement("a"),n=window.location,r={};e.href=t,r.port=e.port;var o=e.href.split("://");return!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=e.hostname||n.hostname,r.pathname=e.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname),r.sameOrigin=!e.hostname||e.hostname===document.domain&&e.port===n.port&&e.protocol===n.protocol,r}},{}],14:[function(t,e){function n(t){return function(){r(t,[(new Date).getTime()].concat(i(arguments)))}}var r=t("handle"),o=t(1),i=t(2);"undefined"==typeof window.newrelic&&(newrelic=window.NREUM);var a=["setPageViewName","addPageAction","setCustomAttribute","finished","addToTrace","inlineHit","noticeError"];o(a,function(t,e){window.NREUM[e]=n("api-"+e)}),e.exports=window.NREUM},{1:23,2:24,handle:"D5DuLP"}],gos:[function(t,e){e.exports=t("7eSDFh")},{}],"7eSDFh":[function(t,e){function n(t,e,n){if(r.call(t,e))return t[e];var o=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:o,writable:!0,enumerable:!1}),o}catch(i){}return t[e]=o,o}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],D5DuLP:[function(t,e){function n(t,e,n){return r.listeners(t).length?r.emit(t,e,n):void(r.q&&(r.q[t]||(r.q[t]=[]),r.q[t].push(e)))}var r=t("ee").create();e.exports=n,n.ee=r,r.q={}},{ee:"QJf3ax"}],handle:[function(t,e){e.exports=t("D5DuLP")},{}],XL7HBI:[function(t,e){function n(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:i(t,o,function(){return r++})}var r=1,o="nr@id",i=t("gos");e.exports=n},{gos:"7eSDFh"}],id:[function(t,e){e.exports=t("XL7HBI")},{}],G9z0Bl:[function(t,e){function n(){var t=p.info=NREUM.info,e=f.getElementsByTagName("script")[0];if(t&&t.licenseKey&&t.applicationID&&e){s(d,function(e,n){e in t||(t[e]=n)});var n="https"===u.split(":")[0]||t.sslForHttp;p.proto=n?"https://":"http://",a("mark",["onload",i()]);var r=f.createElement("script");r.src=p.proto+t.agent,e.parentNode.insertBefore(r,e)}}function r(){"complete"===f.readyState&&o()}function o(){a("mark",["domContent",i()])}function i(){return(new Date).getTime()}var a=t("handle"),s=t(1),c=window,f=c.document;t(2);var u=(""+location).split("?")[0],d={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-686.min.js"},p=e.exports={offset:i(),origin:u,features:{}};f.addEventListener?(f.addEventListener("DOMContentLoaded",o,!1),c.addEventListener("load",n,!1)):(f.attachEvent("onreadystatechange",r),c.attachEvent("onload",n)),a("mark",["firstbyte",i()])},{1:23,2:14,handle:"D5DuLP"}],loader:[function(t,e){e.exports=t("G9z0Bl")},{}],23:[function(t,e){function n(t,e){var n=[],o="",i=0;for(o in t)r.call(t,o)&&(n[i]=e(o,t[o]),i+=1);return n}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],24:[function(t,e){function n(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(0>o?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=n},{}],25:[function(t,e){function n(t){return!(t&&"function"==typeof t&&t.apply&&!t[i])}var r=t("ee"),o=t(1),i="nr@wrapper",a=Object.prototype.hasOwnProperty;e.exports=function(t){function e(t,e,r,a){function nrWrapper(){var n,i,s,f;try{i=this,n=o(arguments),s=r&&r(n,i)||{}}catch(d){u([d,"",[n,i,a],s])}c(e+"start",[n,i,a],s);try{return f=t.apply(i,n)}catch(p){throw c(e+"err",[n,i,p],s),p}finally{c(e+"end",[n,i,f],s)}}return n(t)?t:(e||(e=""),nrWrapper[i]=!0,f(t,nrWrapper),nrWrapper)}function s(t,r,o,i){o||(o="");var a,s,c,f="-"===o.charAt(0);for(c=0;c<r.length;c++)s=r[c],a=t[s],n(a)||(t[s]=e(a,f?s+o:o,i,s))}function c(e,n,r){try{t.emit(e,n,r)}catch(o){u([o,e,n,r])}}function f(t,e){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(t);return n.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(r){u([r])}for(var o in t)a.call(t,o)&&(e[o]=t[o]);return e}function u(e){try{t.emit("internal-error",e)}catch(n){}}return t||(t=r),e.inPlace=s,e.flag=i,e}},{1:24,ee:"QJf3ax"}]},{},["G9z0Bl",4,12,6,5]);</script><link rel="apple-touch-icon" href="/static/images/apple-touch-icon.dc4dcf1f75e0.png"/><link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"><link href='//fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic' rel='stylesheet' type='text/css'><title>3. Manipulating widgets - Creating Apps in Kivy</title><link rel="stylesheet" href="/static/CACHE/css/ab0ffefbadc3.css" type="text/css" /><link rel="stylesheet" type="text/css" href="/static/css/annotator.min.fd58f69f4908.css"/><style type="text/css" title="ibis-book">
+    @charset "utf-8";#sbo-rt-content html,#sbo-rt-content div,#sbo-rt-content div,#sbo-rt-content span,#sbo-rt-content applet,#sbo-rt-content object,#sbo-rt-content iframe,#sbo-rt-content h1,#sbo-rt-content h2,#sbo-rt-content h3,#sbo-rt-content h4,#sbo-rt-content h5,#sbo-rt-content h6,#sbo-rt-content p,#sbo-rt-content blockquote,#sbo-rt-content pre,#sbo-rt-content a,#sbo-rt-content abbr,#sbo-rt-content acronym,#sbo-rt-content address,#sbo-rt-content big,#sbo-rt-content cite,#sbo-rt-content code,#sbo-rt-content del,#sbo-rt-content dfn,#sbo-rt-content em,#sbo-rt-content font,#sbo-rt-content img,#sbo-rt-content ins,#sbo-rt-content kbd,#sbo-rt-content q,#sbo-rt-content s,#sbo-rt-content samp,#sbo-rt-content small,#sbo-rt-content strike,#sbo-rt-content strong,#sbo-rt-content sub,#sbo-rt-content sup,#sbo-rt-content tt,#sbo-rt-content var,#sbo-rt-content b,#sbo-rt-content u,#sbo-rt-content i,#sbo-rt-content center,#sbo-rt-content dl,#sbo-rt-content dt,#sbo-rt-content dd,#sbo-rt-content ol,#sbo-rt-content ul,#sbo-rt-content li,#sbo-rt-content fieldset,#sbo-rt-content form,#sbo-rt-content label,#sbo-rt-content legend,#sbo-rt-content table,#sbo-rt-content caption,#sbo-rt-content tdiv,#sbo-rt-content tfoot,#sbo-rt-content thead,#sbo-rt-content tr,#sbo-rt-content th,#sbo-rt-content td{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}@page{margin:5px !important}#sbo-rt-content p{margin:8px 0 0;line-height:125%;text-align:left}#sbo-rt-content em{font-style:italic;font-family:inherit}#sbo-rt-content em.replaceable{font-style:italic}#sbo-rt-content em strong,#sbo-rt-content strong em{font-weight:bold;font-style:italic;font-family:inherit}#sbo-rt-content strong.userinput{font-weight:bold;font-style:normal}#sbo-rt-content span.bolditalic{font-weight:bold;font-style:italic}#sbo-rt-content strong,#sbo-rt-content span.bold{font-weight:bold}#sbo-rt-content a.ulink,#sbo-rt-content a.xref,#sbo-rt-content a.email,#sbo-rt-content a.link{text-decoration:none;color:#8e0012}#sbo-rt-content sup{font-size:x-small;vertical-align:super}#sbo-rt-content sub{font-size:smaller;vertical-align:sub}#sbo-rt-content span.lineannotation{font-style:italic;color:#A62A2A;font-family:serif,"DejaVuSerif"}#sbo-rt-content span.underline{text-decoration:underline}#sbo-rt-content span.strikethrough{text-decoration:line-through}#sbo-rt-content span.smallcaps{font-variant:small-caps}#sbo-rt-content span.cursor{background:#000;color:#FFF}#sbo-rt-content span.smaller{font-size:75%}#sbo-rt-content .boxedtext,#sbo-rt-content .keycap{border-style:solid;border-width:1px;border-color:#000;padding:1px}#sbo-rt-content span.gray50{color:#7F7F7F;}#sbo-rt-content .gray-background,#sbo-rt-content .reverse-video{background:#2E2E2E;color:#FFF}#sbo-rt-content .light-gray-background{background:#A0A0A0}#sbo-rt-content .preserve-whitespace{white-space:pre-wrap}#sbo-rt-content h1,#sbo-rt-content div.toc-title,#sbo-rt-content h2,#sbo-rt-content h3,#sbo-rt-content h4,#sbo-rt-content h5{-webkit-hyphens:none;hyphens:none;adobe-hyphenate:none;font-weight:bold;text-align:left;page-break-after:avoid !important;font-family:sans-serif,"DejaVuSans"}#sbo-rt-content h1,#sbo-rt-content div.toc-title{font-size:1.5em;margin-top:20px !important}#sbo-rt-content h2{font-size:1.3em;color:#8e0012;margin:40px 0 8px 0}#sbo-rt-content h3{font-size:1.1em;margin:30px 0 8px 0 !important}#sbo-rt-content h4{font-size:1em;color:#555;margin:20px 0 8px 0 !important}#sbo-rt-content h5{font-size:1em;font-weight:normal;font-style:italic;margin:15px 0 6px 0 !important}#sbo-rt-content section.chapter div.titlepage,#sbo-rt-content section.appendix div.titlepage,#sbo-rt-content section.preface div.titlepage{page-break-inside:avoid;page-break-after:avoid}#sbo-rt-content section.chapter>div.titlepage,#sbo-rt-content section.preface>div.titlepage,#sbo-rt-content section.appendix>div.titlepage{margin-bottom:50px}#sbo-rt-content section.chapter>div.titlepage h2.title,#sbo-rt-content section.preface>div.titlepage h2.title,#sbo-rt-content section.appendix>div.titlepage h2.title{font-size:2em;line-height:1;margin-bottom:15px;color:#000;padding-bottom:10px;border-bottom:1px solid #000}#sbo-rt-content div.toc-title{margin-bottom:30px !important}#sbo-rt-content div.part h1{font-size:2em;text-align:center;margin-top:0 !important;padding:50px 0 20px 0;border-bottom:1px solid #000}#sbo-rt-content img{max-width:95%;margin:0 auto;padding:0}#sbo-rt-content div.figure{background-color:transparent;text-align:center;-webkit-border-radius:5px;border-radius:5px;border:1px solid #DCDCDC;padding:15px 5px 15px 5px !important;margin:30px 0 30px 0 !important;max-height:100%;page-break-inside:avoid}#sbo-rt-content div.figure-title,#sbo-rt-content div.informalfigure div.caption{font-size:90%;text-align:center;font-weight:normal;font-style:italic;font-family:serif,"DejaVuSerif";color:#000;padding:5px !important;page-break-before:avoid;page-break-after:avoid}#sbo-rt-content div.informalfigure{text-align:center;padding:5px 0 !important}#sbo-rt-content div.sidebar{margin:30px 0 20px 0 !important;-webkit-border-radius:5px;border-radius:5px;border:1px solid #DCDCDC;background-color:#F7F7F7;font-size:90%;padding:15px !important;page-break-inside:avoid}#sbo-rt-content div.sidebar-title{font-weight:bold;font-size:1em;font-family:sans-serif,"DejaVuSans";text-transform:uppercase;letter-spacing:1px;text-align:center;margin:4px 0 6px 0 !important;page-break-inside:avoid}#sbo-rt-content div.sidebar div.figure p.title,#sbo-rt-content div.sidebar div.informalfigure div.caption{font-size:90%;text-align:center;font-weight:normal;font-style:italic;font-family:serif,"DejaVuSerif";color:#000;padding:5px !important;page-break-before:avoid;page-break-after:avoid}#sbo-rt-content div.sidebar ol{margin-left:15px}#sbo-rt-content div.sidebar div.tip,#sbo-rt-content div.sidebar div.note,#sbo-rt-content div.sidebar div.warning,#sbo-rt-content div.sidebar div.caution,#sbo-rt-content div.sidebar div.important{margin:20px auto 20px auto !important;font-size:90%;width:85%}#sbo-rt-content div.sidebar div.figure{border:none}#sbo-rt-content pre{white-space:pre-wrap;font-family:"Ubuntu Mono",monospace;margin:25px 0 25px 20px;font-size:85%;display:block;-webkit-hyphens:none;hyphens:none;adobe-hyphenate:none}#sbo-rt-content div.note pre.programlisting,#sbo-rt-content div.tip pre.programlisting,#sbo-rt-content div.warning pre.programlisting,#sbo-rt-content div.caution pre.programlisting,#sbo-rt-content div.important pre.programlisting{margin-bottom:0}#sbo-rt-content code{font-family:"Ubuntu Mono",monospace}#sbo-rt-content code strong em,#sbo-rt-content code em strong,#sbo-rt-content pre em strong,#sbo-rt-content pre strong em,#sbo-rt-content strong code em code,#sbo-rt-content em code strong code,#sbo-rt-content span.bolditalic code{font-weight:bold;font-style:italic;font-family:"Ubuntu Mono BoldItal",monospace}#sbo-rt-content code em,#sbo-rt-content em code,#sbo-rt-content pre em,#sbo-rt-content em.replaceable{font-family:"Ubuntu Mono Ital",monospace;font-style:italic}#sbo-rt-content code strong,#sbo-rt-content strong code,#sbo-rt-content pre strong,#sbo-rt-content strong.userinput{font-family:"Ubuntu Mono Bold",monospace;font-weight:bold}#sbo-rt-content div.example{margin:10px 0 15px 0 !important}#sbo-rt-content div.example-title{font-style:italic;font-weight:normal;font-family:serif,"DejaVuSerif";margin:10px 0 5px 0 !important;border-bottom:1px solid #000}#sbo-rt-content li pre.example{padding:10px 0 !important}#sbo-rt-content div.example-contents pre.programlisting,#sbo-rt-content div.example-contents pre.screen{margin:0}#sbo-rt-content span.gray{color:#4C4C4C}#sbo-rt-content div.book div.titlepage h1.title{font-size:3em;font-family:sans-serif,"DejaVuSans";font-weight:bold;margin:50px 0 10px 0 !important;line-height:1;text-align:center}#sbo-rt-content div.book div.titlepage h2.subtitle{text-align:center;color:#000;margin:0 !important;font-style:italic;font-family:serif;font-size:1.5em}#sbo-rt-content div.book div.titlepage div.author h3{font-size:2em;font-family:sans-serif,"DejaVuSans";font-weight:bold;color:#8e0012;margin:50px 0 !important;text-align:center}#sbo-rt-content div.book div.titlepage div.publishername{margin-top:60%;margin-bottom:20px;text-align:center;font-size:1.25em}#sbo-rt-content div.book div.titlepage div.locations p{margin:0;text-align:center}#sbo-rt-content div.book div.titlepage div.locations p.cities{font-size:80%;text-align:center;margin-top:5px}#sbo-rt-content section.preface[title="Dedication"]>div.titlepage h2.title{text-align:center;text-transform:uppercase;font-size:1.5em;margin-top:50px;margin-bottom:50px}#sbo-rt-content section.preface[title="Dedication"] p{font-style:italic;text-align:center}#sbo-rt-content div.colophon h1.title{font-size:1.3em;margin:0 !important;font-family:serif,"DejaVuSerif";font-weight:normal}#sbo-rt-content div.colophon h2.subtitle{margin:0 !important;color:#000;font-family:serif,"DejaVuSerif";font-size:1em;font-weight:normal}#sbo-rt-content div.colophon div.author h3.author{font-size:1.1em;font-family:serif,"DejaVuSerif";margin:10px 0 0 !important;font-weight:normal}#sbo-rt-content div.colophon div.editor h4,#sbo-rt-content div.colophon div.editor h3.editor{color:#000;font-size:.8em;margin:15px 0 0 !important;font-family:serif,"DejaVuSerif";font-weight:normal}#sbo-rt-content div.colophon div.editor h3.editor{font-size:.8em;margin:0 !important;font-family:serif,"DejaVuSerif";font-weight:normal}#sbo-rt-content div.colophon div.publisher{margin-top:10px}#sbo-rt-content div.colophon div.publisher p,#sbo-rt-content div.colophon div.publisher span.publishername{margin:0;font-size:.8em}#sbo-rt-content div.legalnotice p,#sbo-rt-content div.timestamp p{font-size:.8em}#sbo-rt-content div.timestamp p{margin-top:10pt}#sbo-rt-content div.colophon[title="About the Author"] h1.title,#sbo-rt-content div.colophon[title="Colophon"] h1.title{font-size:1.5em;margin:0 !important;font-family:sans-serif,"DejaVuSans";font-weight:bold}#sbo-rt-content section.chapter div.titlepage div.author{margin:10px 0 10px 0}#sbo-rt-content section.chapter div.titlepage div.author div.affiliation{font-style:italic}#sbo-rt-content div.attribution{margin:5px 0 0 50px !important}#sbo-rt-content h3.author span.orgname{display:none}#sbo-rt-content div.epigraph{margin:10px 0 10px 20px !important;page-break-inside:avoid;font-size:90%}#sbo-rt-content div.epigraph p{font-style:italic}#sbo-rt-content blockquote,#sbo-rt-content div.blockquote{margin:10px !important;page-break-inside:avoid;font-size:95%}#sbo-rt-content blockquote p,#sbo-rt-content div.blockquote p{font-family:serif,"DejaVuSerif";font-style:italic}#sbo-rt-content blockquote div.attribution{margin:5px 0 0 30px !important;text-align:right;width:80%}#sbo-rt-content blockquote div.attribution p{font-style:normal}#sbo-rt-content p.right{text-align:right;margin:0}#sbo-rt-content div.footnote{font-size:90%}#sbo-rt-content div.refnamediv h2,#sbo-rt-content div.refnamediv h3,#sbo-rt-content div.refsynopsisdiv h2{font-size:1.1em;color:#000;margin-top:15px !important;margin-bottom:0 !important}#sbo-rt-content div.refentry div.refsect1 h2{font-size:1.1em;color:#000;margin-top:15px !important;margin-bottom:0 !important}#sbo-rt-content div.refsect2 h3{font-size:1em;color:#000;margin-top:10px !important;margin-bottom:0 !important}#sbo-rt-content div.refnamediv p{margin-left:15px !important}#sbo-rt-content dt{padding-top:10px !important;padding-bottom:0 !important}#sbo-rt-content dt span.term{font-weight:bold;font-style:italic}#sbo-rt-content dt span.term code.literal{font-style:normal;font-weight:normal}#sbo-rt-content dd{margin-left:1.5em !important}#sbo-rt-content dd,#sbo-rt-content li{text-align:left}#sbo-rt-content ol{list-style-type:decimal;margin-top:8px !important;margin-bottom:8px !important;margin-left:20px !important;padding-left:25px !important}#sbo-rt-content ol ol{list-style-type:lower-alpha}#sbo-rt-content ol ol ol{list-style-type:lower-roman}#sbo-rt-content ul{list-style-type:square;margin-top:8px !important;margin-bottom:8px !important;margin-left:5px !important;padding-left:20px !important}#sbo-rt-content ul ul{list-style-type:none;padding-left:0 !important;margin-left:0 !important}#sbo-rt-content ol li,#sbo-rt-content ul li,#sbo-rt-content dd{margin-bottom:1em}#sbo-rt-content ul ul li p:before{content:"— "}#sbo-rt-content ul ul ul li p:before{content:""}#sbo-rt-content ul ul ul{list-style-type:square;margin-left:20px !important;padding-left:30px !important}#sbo-rt-content div.orderedlistalpha{list-style-type:upper-alpha}#sbo-rt-content table.simplelist{margin-left:20px !important;margin-bottom:10px}#sbo-rt-content table.simplelist td{border:none;font-size:90%}#sbo-rt-content table.simplelist tr{border-bottom:none}#sbo-rt-content table.simplelist tr:nth-of-type(even){background-color:transparent}#sbo-rt-content div.calloutlist p:first-child{margin-top:-25px !important}#sbo-rt-content div.calloutlist dd{padding-left:40px !important}#sbo-rt-content div.calloutlist img{padding:0}#sbo-rt-content a.co img{padding:0}#sbo-rt-content div.toc ol{margin-top:8px !important;margin-bottom:8px !important;margin-left:0 !important;padding-left:0 !important}#sbo-rt-content div.toc ol ol{margin-left:30px !important;padding-left:0 !important}#sbo-rt-content div.toc ol li{list-style-type:none}#sbo-rt-content div.toc a{color:#8e0012}#sbo-rt-content div.toc ol a{font-size:1em;font-weight:bold}#sbo-rt-content div.toc ol>li>ol a{font-weight:bold;font-size:1em}#sbo-rt-content div.toc ol>li>ol>li>ol a{text-decoration:none;font-weight:normal;font-size:1em}#sbo-rt-content div.tip,#sbo-rt-content div.note,#sbo-rt-content div.warning,#sbo-rt-content div.caution,#sbo-rt-content div.important{margin:30px !important;-webkit-border-radius:5px;border-radius:5px;font-size:90%;padding:10px 8px 20px 8px !important;page-break-inside:avoid}#sbo-rt-content div.tip,#sbo-rt-content div.note,#sbo-rt-content div.important{border:1px solid #BEBEBE;background-color:transparent}#sbo-rt-content div.warning,#sbo-rt-content div.caution{border:1px solid #BC8F8F}#sbo-rt-content div.tip h3,#sbo-rt-content div.note h3,#sbo-rt-content div.warning h3,#sbo-rt-content div.caution h3,#sbo-rt-content div.important h3{font:bold 90%;font-family:sans-serif,"DejaVuSans";text-transform:uppercase;letter-spacing:1px;text-align:center;margin:4px 0 6px !important}#sbo-rt-content div.tip h3,#sbo-rt-content div.note h3,#sbo-rt-content div.important h3{color:#737373}#sbo-rt-content div.warning h3,#sbo-rt-content div.caution h3{color:#C67171}#sbo-rt-content div.sect1[title="Safari® Books Online"] div.note{background-color:transparent;margin:8px 0 0 !important;border:0 solid #BEBEBE;-webkit-border-radius:0;border-radius:0;font-size:100%;padding:0 !important;page-break-inside:avoid}#sbo-rt-content div.sect1[title="Safari® Books Online"] div.note h3{display:none}#sbo-rt-content div.table,#sbo-rt-content table{margin:15px auto 30px auto !important;max-width:95%;border-collapse:collapse;border-spacing:0}#sbo-rt-content div.table,#sbo-rt-content div.informaltable{page-break-inside:avoid}#sbo-rt-content tr{border-bottom:1px solid #c3c3c3}#sbo-rt-content thead td{border-bottom:#9d9d9d 1px solid !important;border-top:#9d9d9d 1px solid !important}#sbo-rt-content tr:nth-of-type(even){background-color:#f1f6fc}#sbo-rt-content thead{font-family:sans-serif,"DejaVuSans";color:#000;font-weight:bold}#sbo-rt-content td{padding:.3em;text-align:left;vertical-align:baseline;font-size:80%}#sbo-rt-content div.informaltable table{margin:10px auto !important}#sbo-rt-content div.informaltable table tr{border-bottom:none}#sbo-rt-content div.informaltable table tr:nth-of-type(even){background-color:transparent}#sbo-rt-content div.informaltable td,#sbo-rt-content div.informaltable th{border:#9d9d9d 1px solid}#sbo-rt-content div.table-title{font-weight:normal;font-style:italic;font-family:serif,"DejaVuSerif";margin:20px 0 0 0 !important;text-align:center;padding:0}#sbo-rt-content table code{font-size:smaller}#sbo-rt-content div.equation{margin:10px 0 15px 0 !important}#sbo-rt-content div.equation-title{font-style:italic;font-weight:normal;font-family:serif,"DejaVuSerif";margin:20px 0 10px 0 !important;page-break-after:avoid}#sbo-rt-content div.equation-contents{margin-left:20px}#sbo-rt-content span.inlinemediaobject{height:.85em;display:inline-block;margin-bottom:.2em}#sbo-rt-content span.inlinemediaobject img{margin:0;height:.85em}#sbo-rt-content div.informalequation{margin:20px 0 20px 20px;width:75%}#sbo-rt-content div.informalequation img{width:75%}#sbo-rt-content div.index{font-weight:bold}#sbo-rt-content div.index dt{line-height:140%}#sbo-rt-content div.index a.indexterm{color:#8e0012}#sbo-rt-content code.boolean,#sbo-rt-content .navy{color:rgb(0,0,128);}#sbo-rt-content code.character,#sbo-rt-content .olive{color:rgb(128,128,0);}#sbo-rt-content code.comment,#sbo-rt-content .blue{color:rgb(0,0,255);}#sbo-rt-content code.conditional,#sbo-rt-content .limegreen{color:rgb(50,205,50);}#sbo-rt-content code.constant,#sbo-rt-content .darkorange{color:rgb(255,140,0);}#sbo-rt-content code.debug,#sbo-rt-content .darkred{color:rgb(139,0,0);}#sbo-rt-content code.define,#sbo-rt-content .darkgoldenrod,#sbo-rt-content .gold{color:rgb(184,134,11);}#sbo-rt-content code.delimiter,#sbo-rt-content .dimgray{color:rgb(105,105,105);}#sbo-rt-content code.error,#sbo-rt-content .red{color:rgb(255,0,0);}#sbo-rt-content code.exception,#sbo-rt-content .salmon{color:rgb(250,128,11);}#sbo-rt-content code.float,#sbo-rt-content .steelblue{color:rgb(70,130,180);}#sbo-rt-content pre code.function,#sbo-rt-content .green{color:rgb(0,128,0);}#sbo-rt-content code.identifier,#sbo-rt-content .royalblue{color:rgb(65,105,225);}#sbo-rt-content code.ignore,#sbo-rt-content .gray{color:rgb(128,128,128);}#sbo-rt-content code.include,#sbo-rt-content .purple{color:rgb(128,0,128);}#sbo-rt-content code.keyword,#sbo-rt-content .sienna{color:rgb(160,82,45);}#sbo-rt-content code.label,#sbo-rt-content .deeppink{color:rgb(255,20,147);}#sbo-rt-content code.macro,#sbo-rt-content .orangered{color:rgb(255,69,0);}#sbo-rt-content code.number,#sbo-rt-content .brown{color:rgb(165,42,42);}#sbo-rt-content code.operator,#sbo-rt-content .black{color:#000;}#sbo-rt-content code.preCondit,#sbo-rt-content .teal{color:rgb(0,128,128);}#sbo-rt-content code.preProc,#sbo-rt-content .fuschia{color:rgb(255,0,255);}#sbo-rt-content code.repeat,#sbo-rt-content .indigo{color:rgb(75,0,130);}#sbo-rt-content code.special,#sbo-rt-content .saddlebrown{color:rgb(139,69,19);}#sbo-rt-content code.specialchar,#sbo-rt-content .magenta{color:rgb(255,0,255);}#sbo-rt-content code.specialcomment,#sbo-rt-content .seagreen{color:rgb(46,139,87);}#sbo-rt-content code.statement,#sbo-rt-content .forestgreen{color:rgb(34,139,34);}#sbo-rt-content code.storageclass,#sbo-rt-content .plum{color:rgb(221,160,221);}#sbo-rt-content code.string,#sbo-rt-content .darkred{color:rgb(139,0,0);}#sbo-rt-content code.structure,#sbo-rt-content .chocolate{color:rgb(210,106,30);}#sbo-rt-content code.tag,#sbo-rt-content .darkcyan{color:rgb(0,139,139);}#sbo-rt-content code.todo,#sbo-rt-content .black{color:#000;}#sbo-rt-content code.type,#sbo-rt-content .mediumslateblue{color:rgb(123,104,238);}#sbo-rt-content code.typedef,#sbo-rt-content .darkgreen{color:rgb(0,100,0);}#sbo-rt-content code.underlined{text-decoration:underline;}#sbo-rt-content pre code.hll{background-color:#ffc}#sbo-rt-content pre code.c{color:#09F;font-style:italic}#sbo-rt-content pre code.err{color:#A00}#sbo-rt-content pre code.k{color:#069;font-weight:bold}#sbo-rt-content pre code.o{color:#555}#sbo-rt-content pre code.cm{color:#35586C;font-style:italic}#sbo-rt-content pre code.cp{color:#099}#sbo-rt-content pre code.c1{color:#35586C;font-style:italic}#sbo-rt-content pre code.cs{color:#35586C;font-weight:bold;font-style:italic}#sbo-rt-content pre code.gd{background-color:#FCC}#sbo-rt-content pre code.ge{font-style:italic}#sbo-rt-content pre code.gr{color:#F00}#sbo-rt-content pre code.gh{color:#030;font-weight:bold}#sbo-rt-content pre code.gi{background-color:#CFC}#sbo-rt-content pre code.go{color:#000}#sbo-rt-content pre code.gp{color:#009;font-weight:bold}#sbo-rt-content pre code.gs{font-weight:bold}#sbo-rt-content pre code.gu{color:#030;font-weight:bold}#sbo-rt-content pre code.gt{color:#9C6}#sbo-rt-content pre code.kc{color:#069;font-weight:bold}#sbo-rt-content pre code.kd{color:#069;font-weight:bold}#sbo-rt-content pre code.kn{color:#069;font-weight:bold}#sbo-rt-content pre code.kp{color:#069}#sbo-rt-content pre code.kr{color:#069;font-weight:bold}#sbo-rt-content pre code.kt{color:#078;font-weight:bold}#sbo-rt-content pre code.m{color:#F60}#sbo-rt-content pre code.s{color:#C30}#sbo-rt-content pre code.na{color:#309}#sbo-rt-content pre code.nb{color:#366}#sbo-rt-content pre code.nc{color:#0A8;font-weight:bold}#sbo-rt-content pre code.no{color:#360}#sbo-rt-content pre code.nd{color:#99F}#sbo-rt-content pre code.ni{color:#999;font-weight:bold}#sbo-rt-content pre code.ne{color:#C00;font-weight:bold}#sbo-rt-content pre code.nf{color:#C0F}#sbo-rt-content pre code.nl{color:#99F}#sbo-rt-content pre code.nn{color:#0CF;font-weight:bold}#sbo-rt-content pre code.nt{color:#309;font-weight:bold}#sbo-rt-content pre code.nv{color:#033}#sbo-rt-content pre code.ow{color:#000;font-weight:bold}#sbo-rt-content pre code.w{color:#bbb}#sbo-rt-content pre code.mf{color:#F60}#sbo-rt-content pre code.mh{color:#F60}#sbo-rt-content pre code.mi{color:#F60}#sbo-rt-content pre code.mo{color:#F60}#sbo-rt-content pre code.sb{color:#C30}#sbo-rt-content pre code.sc{color:#C30}#sbo-rt-content pre code.sd{color:#C30;font-style:italic}#sbo-rt-content pre code.s2{color:#C30}#sbo-rt-content pre code.se{color:#C30;font-weight:bold}#sbo-rt-content pre code.sh{color:#C30}#sbo-rt-content pre code.si{color:#A00}#sbo-rt-content pre code.sx{color:#C30}#sbo-rt-content pre code.sr{color:#3AA}#sbo-rt-content pre code.s1{color:#C30}#sbo-rt-content pre code.ss{color:#A60}#sbo-rt-content pre code.bp{color:#366}#sbo-rt-content pre code.vc{color:#033}#sbo-rt-content pre code.vg{color:#033}#sbo-rt-content pre code.vi{color:#033}#sbo-rt-content pre code.il{color:#F60}#sbo-rt-content pre code.g{color:#050}#sbo-rt-content pre code.l{color:#C60}#sbo-rt-content pre code.l{color:#F90}#sbo-rt-content pre code.n{color:#008}#sbo-rt-content pre code.nx{color:#008}#sbo-rt-content pre code.py{color:#96F}#sbo-rt-content pre code.p{color:#000}#sbo-rt-content pre code.x{color:#F06}#sbo-rt-content div.blockquote_sampler_toc{width:95%;margin:5px 5px 5px 10px !important}#sbo-rt-content div{font-family:serif,"DejaVuSerif";text-align:left}
+    </style><link rel="canonical" href="https://www.safaribooksonline.com/library/view/creating-apps-in/9781491947333/ch03.html"/><meta name="description" content="Chapter 3. Manipulating widgets It’s time to think about widgets again. In this chapter, you’ll see how to dynamically change what widgets are displayed in the widget tree ... "><meta property="og:title" content="3. Manipulating widgets" /><meta itemprop="isPartOf" content="/library/view/creating-apps-in/9781491947333/" /><meta itemprop="name" content="3. Manipulating widgets" /><meta property="og:url" itemprop="url" content="https://www.safaribooksonline.com/library/view/creating-apps-in/9781491947333/ch03.html" /><meta property="og:site_name" content="Safari" /><meta property="og:image" itemprop="thumbnailUrl" content="https://www.safaribooksonline.com/library/cover/9781491947333/" /><meta property="og:description" itemprop="description" content="Chapter 3. Manipulating widgets It’s time to think about widgets again. In this chapter, you’ll see how to dynamically change what widgets are displayed in the widget tree ... "><meta itemprop="inLanguage" content="en" /><meta itemprop="publisher" content="O&#39;Reilly Media, Inc." /><meta property="og:type" content="book" /><meta property="og:book:isbn" itemprop="isbn" content="9781491946671" /><meta property="og:book:author" itemprop="author" content="Dusty Phillips" /><meta property="og:book:tag" itemprop="about" content="Python" /><meta name="twitter:card" content="summary"><meta name="twitter:site" content="@safari"><script src="//cdn.optimizely.com/js/754231730.js"></script><script>
+(function() {
+  var previewLength = '1500';
+  window.optimizely = window.optimizely || [];
+  window.optimizely.push(['setDimensionValue', 'chapter_previews', previewLength]);
+}());
+</script><style type="text/css" id="font-styles" data-template="#sbo-rt-content, #sbo-rt-content p, #sbo-rt-content div { font-size: <%= font_size %> !important; }">
+      
+          #sbo-rt-content, #sbo-rt-content p, #sbo-rt-content div { font-size: 1em !important; }
+      
+      </style><!--[if lt IE 9]><script src="/static/js/src/respond.min.fa78ffe6f7ba.js"></script><![endif]--><script type="text/javascript" src="/static/CACHE/js/ecc99425e988.js" async></script><script type="text/javascript">
+  (function(i,s,o,g,r,a,m) {
+    i['GoogleAnalyticsObject']=r;
+    i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();
+    a=s.createElement(o),m=s.getElementsByTagName(o)[0];
+    a.async=1;
+    a.src=g;
+    m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  var matches = document.cookie.match(/BrowserCookie\s*=\s*([a-f0-9\-]{36})/),
+      user_uuid = null;
+
+  if (matches && matches.length === 2) {
+    user_uuid = matches[1];
+  }
+
+
+  ga('create', 'UA-39299553-7');
+
+
+ga('set', 'dimension1', 'Anonymous');
+ga('set', 'dimension6', user_uuid);
+
+
+
+
+
+  //enable enhanced link tracking
+  ga('require', 'linkid', 'linkid.js');
+
+// Optimizely Universal Analytics Integration code
+  window.optimizely = window.optimizely || [];
+  window.optimizely.push(['activateUniversalAnalytics']);
+  // reading interface will track pageviews itself
+  if (document.location.pathname.indexOf("/library/view") !== 0) {
+    ga('send', 'pageview');
+  }
+</script></head>
+
+
+<body class="reading sidenav  js-preview-content  t-preview-content js-preview-content prodsample-book scalefonts">
+    
+      <div class="hide" role="status working">
+        <div role="working-image"></div>
+      </div>
+      <div class="sbo-site-nav">
+        
+
+
+
+<a href="#container" class="skip">Skip to content</a><header class="topbar t-topbar"><nav role="navigation" class="js-site-nav"><ul class="topnav"><li class="logo t-logo"><a href="/" class="l0 safari js-keyboard-nav-home"><em>Safari</em></a></li><li class="search"><a href="#" class="trigger ss-search l0 t-search-box" data-dropdown-selector=".searchbox"><span>Search</span></a></li><li class="usermenu dropdown"><a href="#" class="trigger l0 ss-navigatedown nav-dropdown"><span>Expand Nav</span></a><div class="drop-content"><ul><li id="nav-topics"><a href="/learn/" class="t-topics-link l1 ss-hexbase">Topics</a></li></ul><ul class="profile"><li><a href="http://community.safaribooksonline.com/" class="l2">Feedback</a></li></ul></div></li></ul></nav></header>
+
+
+      </div>
+      <div id="container" role="application">
+        
+          <div class="nav-container clearfix">
+            
+
+
+            
+            
+          </div>
+
+          
+
+  <div class="js-toc">
+    
+      <div class="sbo-reading-menu sbo-menu-top"><section class="sbo-toc-container" role="toc-menu"><a href="#" class="sbo-toc-thumb"><span class="sbo-title ss-list"><h1>
+      
+      Creating Apps in Kivy
+      
+    </h1></span></a><div class="toc-contents"></div></section></div>
+
+    
+
+    <div class="interface-controls interface-controls-top">
+      <ul class="interface-control-btns js-bitlist js-reader">
+        <li class="js-search-in-archive search-in-archive t-search-in-archive"><a href="#" title="Search in archive" class="js-search-controls search-controls"><span class="icon">Search in book...</span></a><form class="search-archive-bar js-search-form"><input type="search" name="q" placeholder="Search inside this book..." autocomplete="off"></form><div class="js-search-results search-archive-results"></div></li><li><a href="#" data-push-state="false" id="font-controls" title="Change font size" aria-label="Change font size"><span class="icon">Toggle Font Controls</span></a></li><li class="dropdown sharing-controls"><a href="#" class="trigger" data-push-state="false" title="Share" aria-label="Share"><span class="icon">Share this</span></a><ul class="social-sharing dropdown-menu"><li><a
+        class="twitter share-button t-twitter"
+        target="_blank"
+        aria-label="Share this section on Twitter"
+        title="Share this section on Twitter"
+      
+        href="https://twitter.com/share?url=https://www.safaribooksonline.com/library/view/creating-apps-in/9781491947333/ch03.html&text=Creating%20Apps%20in%20Kivy&via=safari"
+      ><span>Twitter</span></a></li><li><a
+        class="facebook share-button t-facebook"
+        target="_blank"
+        aria-label="Share this section on Facebook"
+        title="Share this section on Facebook"
+        href="https://www.facebook.com/sharer/sharer.php?u=https://www.safaribooksonline.com/library/view/creating-apps-in/9781491947333/ch03.html"
+      ><span>Facebook</span></a></li><li><a
+        class="googleplus share-button t-googleplus"
+        target="_blank"
+        aria-label="Share this secton on Google Plus"
+        title="Share this secton on Google Plus"
+        href="https://plus.google.com/share?url=https://www.safaribooksonline.com/library/view/creating-apps-in/9781491947333/ch03.html"
+      ><span>Google Plus</span></a></li><li><a
+        class="email share-button t-email"
+        aria-label="Share this section via email"
+        title="Share this section via email"
+      
+        href="mailto:?subject=Safari: 3.%20Manipulating%20widgets&body=https://www.safaribooksonline.com/library/view/creating-apps-in/9781491947333/ch03.html%0D%0Afrom Creating%20Apps%20in%20Kivy%0D%0A"
+      ><span>Email</span></a></li></ul></li>
+      </ul>
+    </div>
+
+    <section role="document">
+      
+	  <div class="t-sbo-prev sbo-prev sbo-nav-top">
+  
+    
+      
+        <a href="/library/view/creating-apps-in/9781491947333/ch02.html" role="prev" class="nav-link">
+      
+          <span class="pagination-label t-prev-label">Prev</span>
+          <div class="pagination-title t-prev-title">2. Events and Properties</div>
+        </a>
+    
+  
+  </div>
+
+  <div class="t-sbo-next sbo-next sbo-nav-top">
+  
+    
+      
+        <a href="/library/view/creating-apps-in/9781491947333/ch04.html" role="next" class="nav-link">
+      
+          <span class="pagination-label t-next-label">Next</span>
+          <div class="pagination-title t-next-title">4. Iterative Development</div>
+        </a>
+    
+  
+  </div>
+
+
+
+<div id="sbo-rt-content"><section class="chapter" title="Chapter 3. Manipulating widgets" epub:type="chapter" id="ch_root_widget"><div class="titlepage"><div><div><h2 class="title">Chapter 3. Manipulating widgets</h2></div></div></div><p>It’s time to think about widgets again. In this chapter, you’ll see how to dynamically change what widgets are displayed in the widget tree. You’ll mainly be implementing the searching and rendering of search results. This will give you a good understanding of the intricacies of the kivy <code class="literal">ListView</code> widget and its adapters, and you’ll also learn how to create widgets and update the display dynamically in response to user or system events.</p><div class="sect1" title="A More Extensible Root Widget"><div class="titlepage"><div><div><h2 class="title" style="clear: both" id="_a_more_extensible_root_widget">A More Extensible Root Widget</h2></div></div></div><p>While the user will find it useful for the <code class="literal">AddLocationForm</code> to be rendered the first time the application is run, it’s not actually appropriate to set it as the root widget on the App. It’s better to have a custom root widget that knows how to manage the widgets that are displayed on itself, such as the various forms I mentioned in <a class="xref" href="ch01.html" title="Chapter 1. Introducing Kivy">Chapter 1</a>.</p><p>I expect the root widget to have several methods for manipulating the display of child widgets. Start by adding an empty class to the <code class="literal">main.py</code> file. Make it extend <code class="literal">BoxLayout</code>, but for now, the class can be otherwise empty (meaning it will behave exactly like a normal <code class="literal">BoxLayout</code>). See <a class="xref" href="ch03.html#empty_root_class.py" title="Example 3-1. Empty root class">Example 3-1</a>.</p><div class="example"><div class="example-title">Example 3-1. Empty root class</div><div class="example-contents"><pre class="programlisting"><code class="k">class</code> <code class="nc">WeatherRoot</code><code class="p">(</code><code class="n">BoxLayout</code><code class="p">):</code>
+    <code class="k">pass</code></pre></div></div><p>For now, set up the KV language file to render an instance of this as the root widget. Then set up  a new rule for it to include a <code class="literal">AddLocationForm</code> as child, as demonstrated in <a class="xref" href="ch03.html#root_addlocation.kv" title="Example 3-2. Root widget with AddLocationForm child">Example 3-2</a>.</p><div class="example"><div class="example-title">Example 3-2. Root widget with AddLocationForm child</div><div class="example-contents"><pre class="programlisting"><code class="n">WeatherRoot</code><code class="p">:</code>
+
+<code class="o">&lt;</code><code class="n">WeatherRoot</code><code class="o">&gt;</code><code class="p">:</code>
+    <code class="n">AddLocationForm</code></pre></div></div><p>Since the parent class ...</p></div></section></div>
+
+  <div class="t-sbo-prev sbo-prev sbo-nav-bottom">
+  
+    
+      
+        <a href="/library/view/creating-apps-in/9781491947333/ch02.html" role="prev" class="nav-link">
+      
+          <span class="pagination-label t-prev-label">Prev</span>
+          <div class="pagination-title t-prev-title">2. Events and Properties</div>
+        </a>
+    
+  
+  </div>
+
+  <div class="t-sbo-next sbo-next sbo-nav-bottom">
+  
+    
+      
+        <a href="/library/view/creating-apps-in/9781491947333/ch04.html" role="next" class="nav-link">
+      
+          <span class="pagination-label t-next-label">Next</span>
+          <div class="pagination-title t-next-title">4. Iterative Development</div>
+        </a>
+    
+  
+  </div>
+
+      
+    </section>
+    <div class="reading-controls-bottom">
+      <ul class="interface-controls js-bitlist">
+        <li class="queue-control">
+            <button type="button" class="rec-fav ss-queue js-queue js-current-chapter-queue" data-queue-endpoint="/api/v1/book/9781491947333/chapter/ch03.html">
+      <span>Add to Queue</span>
+  </button>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="js-related-container related"></div>
+<section class="sbo-saved-archives"></section>
+
+
+
+          
+          
+  
+
+
+
+
+
+
+  
+  
+
+  
+  
+    
+      
+        
+<div id="js-subscribe-nag" class="subscribe-nag clearfix anon-panel js-anon-panel" data-trial-length="10">
+  <p class="registration-form__minimize"><span class="registration-form__minimize__title">Minimise</span></p>
+  <div class="sample-message nag-a">
+    <h2 class="t-nag-heading">
+      
+        Unlock the rest of this chapter <span class="doc-title">from <strong><em>Creating Apps in Kivy</em></strong></span>
+      
+      and 30,000 other books and videos
+    </h2>
+    <form action="/register/" data-username-url="/check-username-availability/" data-password-url="/check-password/" id="registration-form" method="post" novalidate="novalidate" class="t-alternate-registration-form js-registration-form" data-ajax-registration="true">
+      <ul class="registration-form">
+              <li class="registration-form_item username">
+                  <input id="id_username" type="text" autocapitalize="off" name="username" placeholder="Choose a Username" tabindex="91" class="form-field" aria-required="true" required>
+                  <small class="ok js-inputstatus t-pw-status"></small>
+              </li>
+              <li class="registration-form_item email">
+                  <input id="id_email" type="email" autocapitalize="off" name="email" placeholder="Your Email Address" tabindex="92" class="form-field" aria-required="true" required>
+              </li>
+              <li class="registration-form_item password">
+                  <input id="id_password1" type="password" autocapitalize="off" name="password1" placeholder="Choose a Password" tabindex="93" class="form-field" aria-required="true" required>
+              </li>
+              <li class="registration-form_item terms-conditions">
+                  <input id="id_legal" type="checkbox" tabindex="96" class="form-checkbox" name="legal"><label for="id_legal" class="terms-conditions__label" aria-required="true" required>By clicking this box, you confirm that you have read and agree to the terms and conditions of our <a href="/membership-agreement/" target="_blank">Membership Agreement</a>, and you understand that when your trial period ends, you will be required to provide billing information if you wish to continue using the service.</label>
+              </li>
+          </ul>
+      <div class="cta-group t-cta-group">
+        <!-- always display calls to action -->
+        <div class="bigbutton positive t-nag-cta">Unlock the rest of this book </div>
+        <button class="bigbutton positive t-nag-cta js-submit-registration" type="submit">
+          <span>Start a Free 10-Day Trial</span>
+          <em class="spinner">loading</em>
+        </button>
+        
+          <span class="business-link">Learn about <a href="/team-setup/" class="js-safari-for-business">Safari for Business</a></span>
+        
+        <span class="signin">Have an account? <a class="t-preview-signin" href="/accounts/login/?next=/library/view/creating-apps-in/9781491947333/ch03.html">Sign in.</a></span>
+        <input type="hidden" name="auto_set_topics" value="Yes">
+        <input type="hidden" class="js-recently-viewed-bits" name="recently_viewed_bits" />
+        <input type="hidden" name="source" value="subscribe-nag">
+      </div>
+    </form>
+  </div>
+</div>
+
+      
+    
+  
+
+
+
+        
+      </div>
+      
+
+
+
+  <footer class="pagefoot">
+    <ul class="js-footer-nav">
+      <li><a href="https://www.safaribooksonline.com/blog/">Blog</a></li>
+      <li class="full-support"><a href="https://www.safaribooksonline.com/public/support">Support</a></li>
+      <li><a href="http://community.safaribooksonline.com/">Feedback</a></li>
+      
+        <li><a href="/accounts/login/">Sign In</a></li>
+      
+    </ul>
+    <span class="copyright">&#169; 2015 <a href="https://www.safaribooksonline.com" target="_blank">Safari</a>.</span>
+    <br class="mobile-support" />
+    <a href="/terms/">Terms of Service</a> /
+    <a href="/membership-agreement/">Membership Agreement</a> /
+    <a href="/privacy/">Privacy Policy</a>
+  </footer>
+
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"transactionName":"YgdaZ0NSW0cEB0RdWltNfkZfUEFdCgofXFBHDVYdR1pQQxZeRl1QQj1aWkUTHXULC15NWFoXSxo=","agent":"js-agent.newrelic.com/nr-686.min.js","beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","applicationTime":267,"licenseKey":"510f1a6865","applicationID":"3275661","queueTime":0}</script>
+
+
+    
+
+    <script src="/jsi18n/web/" charset="utf-8"></script>
+    <script src="/library/jsi18n/appcache/" charset="utf-8"></script>
+    
+      <script src="/static/js/src/require.7e5ddcef08a5.js"></script>
+      <script>
+        require(["/static/js/pages/_config.7cf7fb6572d6.js"], function (common) {
+          require(["/static/js/nest/_init.479f1cd580c7.js"]);
+        });
+      </script>
+    
+    
+  
+  
+  
+  <script> // <![CDATA[
+    var g = {
+      position_cache: {
+        
+      },
+      title: "Creating Apps in Kivy",
+      author_list: "Dusty Phillips",
+      format: "book",
+      source: "application/epub+zip",
+      is_system_book: true,
+      is_public: false,
+      loaded_from_server: true
+    };
+    // ]]>
+  </script>
+  
+  
+
+
+  
+  <script>
+    
+       window.PUBLIC_ANNOTATIONS = false;
+       window.MOBLIE_PUBLIC_ANNOTATIONS = false;
+    
+
+  </script>
+
+  
+
+  <script src="/static/js/src/mixpanel.98fa40f7fa62.js"></script>
+
+  
+
+
+
+
+  
+  <script type="text/javascript">var _kiq=_kiq||[];!function(t,e){function a(){var t=e.getElementsByTagName("script")[0],a=e.createElement("script");a.type="text/javascript",a.async=!0,a.src="//s3.amazonaws.com/ki.js/52692/brA.js",t.parentNode.insertBefore(a,t)}t.addEventListener?t.addEventListener("load",a,!1):t.attachEvent&&t.attachEvent("onload",a)}(window,document);</script>
+  <script type="text/javascript" charset="utf-8">
+    _kiq.push(['set', { 'logged_in': false, 'account_status': '', 'user_id': '' }]);
+  </script>
+  
+
+
+  
+    
+  
+
+
+    
+    
+
+
+  </body>
+</html>
